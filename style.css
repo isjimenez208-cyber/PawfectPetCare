@@ -58,7 +58,7 @@ main h2 {
 .card {
     width: 100%;
     height: 100%;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
 }
 
 .card-img-top {
@@ -70,6 +70,17 @@ main h2 {
 .card-body {
     display: flex;
     flex-direction: column;
+}
+
+/* Fixes cards text box size */
+.card-text {
+    flex-grow: 1;
+}
+
+/* Sumbit button Color */
+.card .btn {
+    background-color: darkgreen;
+    border-color: darkgreen;
 }
 
 /* FAQ */
